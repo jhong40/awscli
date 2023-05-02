@@ -25,6 +25,8 @@ aws eks list-clusters
 aws eks delete-cluster --name myeks
 aws eks describe-cluster --name myeks
 
+
+aws eks describe-cluster --name experian-ais | jq -r '.cluster.status'
  
 
 ```
