@@ -28,5 +28,4 @@ aws eks describe-cluster --name myeks
 
 aws eks describe-cluster --name mycluster | jq -r '.cluster.status'
  
-
 ```
